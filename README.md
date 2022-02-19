@@ -1,0 +1,2 @@
+# foreign_language_game
+第二外国語をゲームで学べるアプリ
