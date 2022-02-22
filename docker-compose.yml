@@ -1,0 +1,26 @@
+version: '3'
+services:
+  backend:
+    build: 
+      dockerfile: ./backend/Dockerfile
+      context: .
+    volumes:
+      - ./backend/.dockervenv:/src/.venv
+      - ./backend:/src
+    ports:
+      - 8000:8000
+    platform: linux/amd64
+  
+  frontend:
+    build: 
+      dockerfile: ./frontend/Dockerfile
+      context: .
+    ports:
+      - '3000:3000'
+    volumes:
+      - './frontend:/app'
+    command: /bin/sh -c "yarn dev"
+    tty: true
+    stdin_open: true
+    # M1Mac用
+    platform: linux/amd64
