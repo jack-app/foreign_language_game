@@ -7,7 +7,7 @@ services:
       - '3000:3000'
     volumes:
       - '.:/app'
-    command: /bin/sh -c "yarn dev"
+    command: /bin/sh -c "cd /app && yarn dev"
     tty: true
     stdin_open: true
     # M1Mac用
