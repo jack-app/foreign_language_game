@@ -8,10 +8,7 @@ type languages = string;
 
 const languages = [
   { id: 1, lang: 'フランス語' },
-  {
-    id: 2,
-    lang: 'ロシア語',
-  },
+  { id: 2, lang: 'ロシア語' },
 ];
 
 const handleChangePage = () => {};
