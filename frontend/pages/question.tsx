@@ -2,14 +2,14 @@ import Link from 'next/link';
 import Header from '../components/header';
 
 const Question = () => {
-  const title = 'Other';
+  const title = '問題';
   return (
     <>
       <Header title={title}>
         <h1>React</h1>
       </Header>
       <Link href="/">
-        <a>Go to index page &gt;&gt;</a>
+        <a>トップページに戻る &gt;&gt;</a>
       </Link>
     </>
   );

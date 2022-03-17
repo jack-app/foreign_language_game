@@ -6,11 +6,14 @@ import Layout from '../components/layout';
 const Home: NextPage = (props) => {
   return (
     <>
-      <Layout header="Next.js" title="This is Top Page.">
+      <Layout header="Next.js" title="第二外国語アプリ">
         <div className="">
           <h5 className="">Hello World!</h5>
-          <Link href="/register">問題を登録する</Link>
-          <Link href="/question">問題を解く</Link>
+          <div className="">
+            <Link href="/register">問題を登録する</Link>
+            <br />
+            <Link href="/question">問題を解く</Link>
+          </div>
         </div>
       </Layout>
     </>
