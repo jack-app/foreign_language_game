@@ -21,6 +21,8 @@ services:
       - './frontend:/app'
     command: /bin/sh -c "yarn dev"
     tty: true
+    environment:
+      - CHOKIDAR_USEPOLLING=true
     stdin_open: true
     # M1Mac用
     platform: linux/amd64
