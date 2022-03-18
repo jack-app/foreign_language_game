@@ -11,14 +11,14 @@ services:
       - 8000:8000
     platform: linux/amd64
   
-  frontend:
+  front:
     build: 
-      dockerfile: ./frontend/Dockerfile
+      dockerfile: ./front/Dockerfile
       context: .
     ports:
       - '3000:3000'
     volumes:
-      - './frontend:/app'
+      - './front:/app'
     command: /bin/sh -c "yarn dev"
     tty: true
     environment:
