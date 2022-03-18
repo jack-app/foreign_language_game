@@ -1,9 +1,9 @@
 import Head from 'next/head';
 import Header from './header';
 
-type props = any;
+type Props = any;
 
-const Layout = (props: props) => {
+const Layout = (props: Props) => {
   return (
     <>
       <Header title={props.title} />
