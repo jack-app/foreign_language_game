@@ -14,11 +14,21 @@ const Home: NextPage = () => {
       </Head>
       <Layout header="Next.js" title="第二外国語アプリ">
         <div className="">
-          <h2 className="">Hello World!</h2>
+          <div>
+            <p className="text-5xl text-orange-800">Bonjour le monde!!</p>
+            <p className="text-xl text-orange-800">
+              人称や格を楽しく学べるアプリ
+            </p>
+          </div>
+          <img src="../amico.png" />
+        </div>
+        <title>Create Next App</title>
+        <link rel="icon" href="/favicon.ico" />
+        <div className="">
           <div className="">
-            <Link href="/register">問題を登録する</Link>
+            <Link href="/register">問題を解く</Link>
             <br />
-            <Link href="/question">問題を解く</Link>
+            <Link href="/question">問題を登録する</Link>
             <GeneralButton text="フランス語" />
             <GeneralButton text="ロシア語" />
           </div>
