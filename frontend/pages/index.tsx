@@ -7,13 +7,19 @@ import GeneralButton from '../components/generalButton';
 const Home: NextPage = () => {
   return (
     <>
-      <Layout header="Next.js" title="第二外国語アプリ">
+      <Layout title="第二外国語アプリ">
+        <div className="title">
+          <div>
+            <h1 className="text-red-500">Bonjour le monde!!</h1>
+            <h3>人称や格を楽しく学べるアプリ</h3>
+          </div>
+          <img src="../../top.png" />
+        </div>
         <div className="">
-          <h2 className="">Hello World!</h2>
           <div className="">
-            <Link href="/register">問題を登録する</Link>
+            <Link href="/register">問題を解く</Link>
             <br />
-            <Link href="/question">問題を解く</Link>
+            <Link href="/question">問題を登録する</Link>
             <GeneralButton text="フランス語" />
             <GeneralButton text="ロシア語" />
           </div>
