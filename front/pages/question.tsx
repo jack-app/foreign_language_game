@@ -1,8 +1,8 @@
-import Link from 'next/link';
-import Header from '../components/header';
+import Link from 'next/link'
+import Header from '../components/header'
 
 const Question = () => {
-  const title = '問題';
+  const title = '問題'
   return (
     <>
       <Header title={title}>
@@ -12,7 +12,7 @@ const Question = () => {
         <a>トップページに戻る &gt;&gt;</a>
       </Link>
     </>
-  );
-};
+  )
+}
 
-export default Question;
+export default Question
