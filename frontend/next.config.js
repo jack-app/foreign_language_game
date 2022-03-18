@@ -6,6 +6,7 @@
 // module.exports = nextConfig
 
 module.exports = {
+  swcMinify: false,
   reactStrictMode: true,
 // ここから
   webpackDevMiddleware: config => {
