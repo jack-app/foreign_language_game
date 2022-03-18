@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import Header from '../components/header'
 
-const Question = () => {
+const Questions = () => {
   const title = '問題'
   return (
     <>
@@ -15,4 +15,4 @@ const Question = () => {
   )
 }
 
-export default Question
+export default Questions
