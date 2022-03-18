@@ -12,4 +12,6 @@ async def generate_questions(rq: rq_schema)-> gen_schema:
         if rq.type == "choice":
             return format_gen_scheme(noun_gender(rq.words))
     
-    
+    elif rq.language == "fr":
+        if rq.type == "":
+            pass
