@@ -43,8 +43,8 @@ const RegisterFrance = () => {
       <p className="p-3 text-center text-[1.75rem] text-orange-900 sm:text-2xl md:text-3xl lg:text-4xl">
         {title}
       </p>
-      <div className="flex items-start justify-center">
-        <form onSubmit={addWord}>
+      <div className="grid place-items-center">
+        <form className="m-5" onSubmit={addWord}>
           <input
             className="m-5 bg-gray-200"
             value={word}
