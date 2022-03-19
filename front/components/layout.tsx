@@ -6,7 +6,7 @@ type Props = any
 const Layout = (props: Props) => {
   return (
     <>
-      <Header />
+      <Header title={props.title} />
       <div>{props.children}</div>
     </>
   )

@@ -12,7 +12,7 @@ const Home: NextPage = () => {
         <title>第二外国語アプリ</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Layout header="Next.js">
+      <Layout header="Next.js" title="第二外国語アプリ">
         <div className="flex justify-center bg-yellow-100">
           <div className="flex w-full items-end justify-between p-7 md:w-[90%] lg:w-[85%]">
             <div className="ml-5 text-orange-800">
