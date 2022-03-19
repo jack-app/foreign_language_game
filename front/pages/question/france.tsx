@@ -5,7 +5,9 @@ const Questions = () => {
   const title = '問題'
   return (
     <>
-      <Header />
+      <Header title={title}>
+        <h1>React</h1>
+      </Header>
       <Link href="/">
         <a>トップページに戻る &gt;&gt;</a>
       </Link>
