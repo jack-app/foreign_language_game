@@ -12,7 +12,7 @@ const Home: NextPage = () => {
         <title>第二外国語アプリ</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Layout header="Next.js" title="第二外国語アプリ">
+      <Layout header="Next.js">
         <div className="flex justify-center bg-yellow-100">
           <div className="flex w-full items-end justify-between p-7 md:w-[90%] lg:w-[85%]">
             <div className="ml-5 text-orange-800">
@@ -35,17 +35,8 @@ const Home: NextPage = () => {
               問題を解く
             </p>
             <div className="flex justify-center">
-              <GeneralButton text="フランス語" content="question" />
-              <GeneralButton text="ロシア語" content="question" />
-            </div>
-          </div>
-          <div className="pt-2 pb-2 lg:pt-4">
-            <p className="p-3 text-[1.75rem] text-orange-900 sm:text-2xl md:text-3xl lg:text-4xl">
-              問題を登録する
-            </p>
-            <div className="flex justify-center">
-              <GeneralButton text="フランス語" content="register" />
-              <GeneralButton text="ロシア語" content="register" />
+              <GeneralButton text="フランス語" language="france" />
+              <GeneralButton text="ロシア語" language="russia" />
             </div>
           </div>
         </div>
