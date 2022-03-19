@@ -1,8 +1,8 @@
 import Link from 'next/link'
-import Header from '../components/header'
+import Header from '../../components/header'
 
-const Questions = () => {
-  const title = '問題'
+const Register = () => {
+  const title = '問題を登録する'
   return (
     <>
       <Header title={title}>
@@ -15,4 +15,4 @@ const Questions = () => {
   )
 }
 
-export default Questions
+export default Register
