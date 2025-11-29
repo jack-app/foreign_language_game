@@ -1,2 +1,2 @@
-# Free AI at api.airforce
-https://discord.gg/AJDsM7jtbq
+# foreign_language_game
+第二外国語をゲームで学べるアプリ
